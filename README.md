@@ -25,7 +25,7 @@
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BON-YES&label=VISITORS&style=flat-square&color=0002FF" />
+  <img src="https://komarev.com/ghpvc/?username=boniphacebrave-LGENDS-MD&label=VISITORS&style=flat-square&color=0002FF" />
 </p>
 
 

@@ -1,4 +1,6 @@
-#THE LEGENDS MD
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=speech&height=200&color=gradient&text=WE'LL%20COME%20&animation=blinking&fontAlign=36&fontAlignY=36&descAlign=62&reversal=false&textBg=false" width="100%">
+</div>
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 

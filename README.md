@@ -17,7 +17,15 @@
 ---
 
 
-<h4 align="left">1. 𝐇𝐄𝐑𝐎𝐊𝐔</h4>
-<p align="left">
-<a href='https://dashboard.heroku.com/new?template=https://github.com/boniphacebrave/LEGENDS-MD' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Heroku%20Deploy-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
-</p>
+
+## 📌 Deploy Now
+
+| Platform | Links |
+|---------|--------|
+| 🌐 Get Session | [![QR Code](https://img.shields.io/badge/-SILVA%20SESSION-1e293b?style=for-the-badge&logo=whatsapp&logoColor=green)](https://silva-session-selector.vercel.app/) |
+| ☁️ Heroku | [![Deploy Heroku](https://img.shields.io/badge/-DEPLOY%20ON%20HEROKU-6f42c1?style=for-the-badge&logo=heroku&logoColor=white)](https://legends-md-fork-checker.vercel.app/) |
+| 🚄 Railway | [![Deploy Railway](https://img.shields.io/badge/-DEPLOY%20ON%20RAILWAY-0b0b0b?style=for-the-badge&logo=railway&logoColor=white)](https://silva-md-fork-checker.vercel.app/) |
+| 🌀 Koyeb | [![Deploy Koyeb](https://img.shields.io/badge/-DEPLOY%20ON%20KOYEB-ff0050?style=for-the-badge&logo=koyeb&logoColor=white)](https://silva-md-fork-checker.vercel.app/) |
+| 🧩 Talkdrove | [![Deploy Talkdrove](https://img.shields.io/badge/-DEPLOY%20ON%20TALKDROVE-2196F3?style=for-the-badge&logo=whatsapp&logoColor=white)](https://host.talkdrove.com/share-bot/49) |
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">

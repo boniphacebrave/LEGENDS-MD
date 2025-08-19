@@ -54,8 +54,14 @@
 
 ## 👨‍💻 Developer Support
 
-- 🧠 Need help? [Open an Issue](https://github.com/SilvaTechB/silva-md-bot/issues)
-- 📩 WhatsApp Dev Chat: [Chat Silva Tech](https://wa.me/+254700143167?text=Hello+Silva+Tech,+I+need+assistance+with+Silva+MD+Bot)
+👇 CONTACT DEV.1
+[![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=Contact%20Me%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/255794373476)  
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+<br>
 
+
+
+👇 CONTACT DEV.2
+[![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=Contact%20Me%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/255621995482)  
+
+<br>

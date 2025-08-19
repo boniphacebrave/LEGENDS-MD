@@ -46,7 +46,7 @@
 
 
 
-### 🌟 call us 
+### 🌟 join for more updates
 <p align="center">
   <a href="https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"></a>
 
@@ -54,8 +54,12 @@
 
 
 
+- 📩wastapp dev 1 : [boniphace king](https://wa.me/+255 794 373 476text=Hello+boniphace+king,+I+need+assistance+with+legends+MD+Bot)
 
 
+
+
+- 📩 wastapp dev2: [YESSER DK](https://wa.me/+255621995482text=Hi+YESSER+DK,+I+need+assistance+with+legends+MD+Bot)
 
 
 

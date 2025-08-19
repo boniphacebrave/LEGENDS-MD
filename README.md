@@ -43,9 +43,25 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 
- 📬 Contact
-For urgent inquiries:  
-📧 [email us](mailto:sylivanusmomanyi@gmail.com)  
-🐦 [X us](https://twitter.com/silva_african)
 
-💝 [Chat with us](https://wa.me/254755257907)
+
+
+### 🌟 call us 
+<p align="center">
+  <a href="https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"></a>
+  <a href="https://instagram.com/_its.silva"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram.png" width="11%"></a>
+  <a href="https://www.facebook.com/profile.php?id=100055490090211"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"></a>
+  <a href="https://x.com/silva_african"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="10%"></a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+

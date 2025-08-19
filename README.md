@@ -48,7 +48,7 @@
 
 ### 🌟 call us 
 <p align="center">
-  <a href="https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"></a>
+  <a href="https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S"><img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"></a>
 
 
 

@@ -55,13 +55,13 @@
 ## 👨‍💻 Developer Support
 
 👇 CONTACT DEV.1
-[![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=Contact%20Me%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/255794373476)  
+[![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=boniphace%20king%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/255794373476)  
 
 <br>
 
 
 
 👇 CONTACT DEV.2
-[![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=Contact%20Me%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/255621995482)  
+[![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=yesser%20dk%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=green)](https://wa.me/255621995482)  
 
 <br>

@@ -52,15 +52,10 @@
 
 
 
+## 👨‍💻 Developer Support
 
+- 🧠 Need help? [Open an Issue](https://github.com/SilvaTechB/silva-md-bot/issues)
+- 📩 WhatsApp Dev Chat: [Chat Silva Tech](https://wa.me/+254700143167?text=Hello+Silva+Tech,+I+need+assistance+with+Silva+MD+Bot)
 
-- 📩wastapp dev 1 : [boniphace king](https://wa.me/+255 794 373 476text=Hello+boniphace+king,+I+need+assistance+with+legends+MD+Bot)
-
-
-
-
-- 📩 wastapp dev2: [YESSER DK](https://wa.me/+255621995482text=Hi+YESSER+DK,+I+need+assistance+with+legends+MD+Bot)
-
-
-
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 

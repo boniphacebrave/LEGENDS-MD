@@ -41,3 +41,11 @@
 | 🧩 Talkdrove | [![Deploy Talkdrove](https://img.shields.io/badge/-DEPLOY%20ON%20TALKDROVE-2196F3?style=for-the-badge&logo=whatsapp&logoColor=white)](https://host.talkdrove.com/share-bot/49) |
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+
+ 📬 Contact
+For urgent inquiries:  
+📧 [email us](mailto:sylivanusmomanyi@gmail.com)  
+🐦 [X us](https://twitter.com/silva_african)
+
+💝 [Chat with us](https://wa.me/254755257907)

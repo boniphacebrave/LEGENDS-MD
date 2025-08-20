@@ -1,7 +1,7 @@
 const config = require('../config');
 const { cmd, commands } = require('../command');
 
-const whatsappChannelLink = 'https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10';
+const whatsappChannelLink = 'https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S';
 
 const speedLatencyQuotes = [
   "Speed matters in the digital world!",
@@ -20,8 +20,8 @@ const verifiedContact = {
   },
   message: {
     contactMessage: {
-      displayName: "CASEYRHODES VERIFIED ✅",
-      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Caseyrhodes VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=254112192119:+254112192119\nEND:VCARD"
+      displayName: "LEGENDS-MD VERIFIED ✅",
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Legend VERIFIED ✅\nORG:LEGEND-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255 621 995 482\nEND:VCARD"
     }
   }
 };
@@ -67,7 +67,7 @@ cmd({
     }
 
     const stylishText = `
-> *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃: ${latencyMs}ms ${reactionEmoji}*
+> *LEGEND-MD: ${latencyMs}ms ${reactionEmoji}*
     `.trim();
 
     await conn.sendMessage(from, {
@@ -77,14 +77,14 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363302677217436@newsletter',
-          newsletterName: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇",
+          newsletterJid: '120363419723191331@newsletter',
+          newsletterName: "LEGENDS-MD",
           serverMessageId: 143
         },
         externalAdReply: {
-          title: "𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬 | 𝐩𝐢𝐧𝐠 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐞🚀",
+          title: "Legend | md reponse🚀",
           body: "Speed • Stability • Sync",
-          thumbnailUrl: 'https://files.catbox.moe/y3j3kl.jpg',
+          thumbnailUrl: 'https://files.catbox.moe/k07bn6.jpg',
           sourceUrl: whatsappChannelLink,
           mediaType: 1,
           renderLargerThumbnail: false,

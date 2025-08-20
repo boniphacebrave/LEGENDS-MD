@@ -42,9 +42,9 @@ cmd({
     const date = moment().tz('Africa/Nairobi').format('dddd, MMMM Do YYYY');
 
     const caption = `
-╭━━━《 *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃* 》━━━┈⊷
+╭━━━《 *LEGENDS-MD* 》━━━┈⊷
 ┃❍╭──────────────
-┃❍│▸  Usᴇʀ : Caseyrhodes Tech 🌟
+┃❍│▸  Usᴇʀ : Legend Tech 🌟
 ┃❍│▸  ʙᴀɪʟᴇʏs : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
 ┃❍│▸  ᴛᴏᴛᴀʟ ᴄᴏᴍᴍᴀɴᴅs : *${totalCommands}*
 ┃❍⁠│▸  𝖳ʏᴘᴇ : 𝐍𝐨𝐝𝐞𝐣𝐬
@@ -54,23 +54,23 @@ cmd({
 ╰━━━━━━━━━━━━━━━━━━━━━━━━┈⊷\n\n${commandList.join('\n\n')}`;
 
     const messageOptions = {
-      image: { url: "https://files.catbox.moe/y3j3kl.jpg" },
+      image: { url: "https://files.catbox.moe/k07bn6.jpg" },
       caption: caption,
       contextInfo: {
         forwardingScore: 999,
         isForwarded: true,
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363302677217436@newsletter",
-          newsletterName: "CASEYRHODES TECH",
+          newsletterJid: "120363419723191331@newsletter",
+          newsletterName: "LEGENDS-MD",
           serverMessageId: 2
         },
         externalAdReply: {
-          title: "CASEYRHODES TECH",
-          body: `ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ`,
+          title: "LEGENDS-MD",
+          body: `REGARDS LEGENDS-MD `,
           mediaType: 1,
-          thumbnailUrl: "https://files.catbox.moe/y3j3kl.jpg",
-          sourceUrl: "https://github.com/CASEYRHODES-TECH/CASEYRHODES-XMD"
+          thumbnailUrl: "https://files.catbox.moe/k07bn6.jpg",
+          sourceUrl: "https://github.com/boniphacebrave/LEGENDS-MD"
         }
       }
     };

@@ -9,8 +9,8 @@ const quotedContact = {
   },
   message: {
     contactMessage: {
-      displayName: "CASEYRHODES VERIFIED ✅",
-      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:CASEYRHODES BOT;\nTEL;type=CELL;type=VOICE;waid=254112192119:+24112192119\nEND:VCARD"
+      displayName: "LEGENDS-MD VERIFIED ✅",
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:Legend VERIFIED ✅\nORG:LEGEND-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255621995482\nEND:VCARD"
     }
   }
 };
@@ -31,8 +31,8 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363302677217436@newsletter",
-            newsletterName: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃👻⚡",
+            newsletterJid: "120363419723191331@newsletter",
+            newsletterName: "LEGENDS-MD 👻⚡",
             serverMessageId: 13
           }
         }
@@ -46,8 +46,8 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363302677217436@newsletter",
-            newsletterName: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃👻⚡",
+            newsletterJid: "120363419723191331@newsletter",
+            newsletterName: "LEGENDS-MD 👻⚡",
             serverMessageId: 13
           }
         }
@@ -64,8 +64,8 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363302677217436@newsletter",
-            newsletterName: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃👻⚡",
+            newsletterJid: "120363419723191331@newsletter",
+            newsletterName: "LEGENDS-MD 👻⚡",
             serverMessageId: 13
           }
         }
@@ -101,8 +101,8 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363302677217436@newsletter",
-              newsletterName: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃👻⚡",
+              newsletterJid: "120363419723191331@newsletter",
+              newsletterName: "LEGENDS-MD 👻⚡",
               serverMessageId: 13
             }
           }
@@ -116,8 +116,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363302677217436@newsletter",
-          newsletterName: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃👻⚡",
+          newsletterJid: "120363419723191331@newsletter",
+          newsletterName: "LEGENDS-MD 👻⚡",
           serverMessageId: 13
         }
       }

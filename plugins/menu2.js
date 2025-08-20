@@ -15,14 +15,14 @@ const getRandomImage = () => {
         
         if (imageFiles.length === 0) {
             console.log('No image files found in src folder');
-            return 'https://files.catbox.moe/y3j3kl.jpg'; 
+            return 'https://files.catbox.moe/k07bn6.jpg'; 
         }
         
         const randomImage = imageFiles[Math.floor(Math.random() * imageFiles.length)];
         return path.join(srcPath, randomImage);
     } catch (e) {
         console.log('Error getting random image:', e);
-        return 'https://files.catbox.moe/wklbg4.jpg'; 
+        return 'https://files.catbox.moe/k07bn6.jpg'; 
     }
 };
 
@@ -39,14 +39,14 @@ cmd({
   new Date().getHours() < 12 ? 'Morning' : 
   (new Date().getHours() < 18 ? 'Afternoon' : 'Evening')
 }, ${pushname}!* 🌟
-╭━━━《 *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃* 》 ━━━┈⊷
+╭━━━《 *LEGENDS-MD* 》 ━━━┈⊷
 ┃❍⁠⁠⁠⁠╭──────────────
 ┃❍⁠⁠⁠⁠│▸  Usᴇʀ : ${config.OWNER_NAME}
 ┃❍⁠⁠⁠⁠│▸  ʙᴀɪʟᴇʏs : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
 ┃❍⁠⁠⁠⁠│▸  ᴛᴏᴛᴀʟ ᴄᴏᴍᴍᴀɴᴅs : *${totalCommands}*
 ┃❍⁠⁠⁠⁠│▸  𝖳ʏᴘᴇ : 𝐍𝐨𝐝𝐞𝐣𝐬
 ┃❍⁠⁠⁠⁠│▸  ᴘʟᴀᴛғᴏʀᴍ : 𝐇𝐞𝐫𝐨𝐤𝐮
-┃❍⁠⁠⁠⁠│▸  𝖣ᴇᴠᴇʟᴏᴘᴇʀ : ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ
+┃❍⁠⁠⁠⁠│▸  𝖣ᴇᴠᴇʟᴏᴘᴇʀ : Legend Team 
 ┃❍⁠⁠⁠⁠│▸  𝖬ᴏᴅᴇ : [${config.MODE}]
 ┃❍⁠⁠⁠⁠│▸  𝖯ʀᴇғɪx : *[${config.PREFIX}]*
 ┃❍⁠⁠⁠⁠│▸  ᴛɪᴍᴇ : *${new Date().toLocaleTimeString()}*
@@ -90,8 +90,8 @@ fσr mσrє ínfσ tчpє *.ownєr*
             },
             message: {
                 contactMessage: {
-                    displayName: "CASEYRHODES VERIFIED ✅",
-                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Caseyrhodes VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=254112192119:+254112192119\nEND:VCARD"
+                    displayName: "LEGENDS-MD VERIFIED ✅",
+                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Legend VERIFIED ✅\nORG:LEGEND-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255 621 995 482\nEND:VCARD"
                 }
             }
         };
@@ -101,21 +101,16 @@ fσr mσrє ínfσ tчpє *.ownєr*
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363302677217436@newsletter',
-                newsletterName:'CASEYRHODES-XMD 👻',
+                newsletterJid: '120363419723191331@newsletter',
+                newsletterName:'Legend-md,
                 serverMessageId: 143
             }
         };
         
         const audioUrls = [
-            'https://files.catbox.moe/m0xfku.mp3',
-            'https://files.catbox.moe/8stziq.mp3',
-            'https://files.catbox.moe/3au05j.m4a',
-            'https://files.catbox.moe/dcxfi1.mp3',
-            'https://files.catbox.moe/ebkzu5.mp3',
-            'https://files.catbox.moe/xsa1ig.mp3',
-            'https://files.catbox.moe/iq4ouj.mp3',
-            'https://files.catbox.moe/wtux78.mp3'
+            'https://files.catbox.moe/ooqm90.mp3',
+            'https://files.catbox.moe/jnj107.mp3',
+            
         ];
 
         const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
@@ -639,7 +634,7 @@ fσr mσrє ínfσ tчpє *.ownєr*
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/52dotx.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/k07bn6.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },

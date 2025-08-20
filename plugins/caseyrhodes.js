@@ -24,26 +24,26 @@ cmd({
                          `📖 *Reference:* ${ref}\n` +
                          `📚 *Text:* ${text}\n\n` +
                          `🗂️ *Translation:* ${translation_name}\n\n` +
-                         `© CASEYRHODES XMD BIBLE`;
+                         `© LEGENDS-MD BIBLE`;
 
             await conn.sendMessage(m.chat, { 
-                image: { url: `https://files.catbox.moe/y3j3kl.jpg` },
+                image: { url: `https://files.catbox.moe/k07bn6.jpg` },
                 caption: status,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: 'CASEYRHODES BIBLE 🎉🙏',
+                        newsletterJid: '120363419723191331@newsletter',
+                        newsletterName: 'LEGENDS-MD BIBLE 🎉🙏',
                         serverMessageId: 143
                     },
                     externalAdReply: {
                         showAdAttribution: true,
-                        title: "CASEYRHODES BIBLE 🎉🙏",
+                        title: "LEGENDS-MD BIBLE 🎉🙏",
                         body: "Daily Bible Verses & Inspiration",
                         mediaType: 1,
-                        thumbnailUrl: "https://files.catbox.moe/y3j3kl.jpg",
+                        thumbnailUrl: "https://files.catbox.moe/k07bn6.jpg",
                         sourceUrl: ""
                     }
                 }

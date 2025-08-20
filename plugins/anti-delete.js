@@ -18,8 +18,8 @@ async (conn, mek, m, { from, reply, text, isCreator, sender }) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363302677217436@newsletter',
-                newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘',
+                newsletterJid: '120363419723191331@newsletter',
+                newsletterName: 'LEGENDS-MD,
                 serverMessageId: 143
             }
         }
@@ -30,7 +30,7 @@ async (conn, mek, m, { from, reply, text, isCreator, sender }) => {
         
         if (!text || text.toLowerCase() === 'status') {
             return await conn.sendMessage(from, {
-                text: `🔒 *AntiDelete Status*\n\nCurrent Status: ${currentStatus ? '✅ ON' : '❌ OFF'}\n\n*Usage:*\n• .antidelete on - Enable protection\n• .antidelete off - Disable protection\n\n⚡ Powered by CASEYRHODES-TECH`,
+                text: `🔒 *AntiDelete Status*\n\nCurrent Status: ${currentStatus ? '✅ ON' : '❌ OFF'}\n\n*Usage:*\n• .antidelete on - Enable protection\n• .antidelete off - Disable protection\n\n⚡ Powered by LEGENDS-MD `,
                 ...newsletterConfig
             }, { quoted: mek });
         }

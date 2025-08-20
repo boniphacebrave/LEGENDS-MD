@@ -18,8 +18,8 @@ async (conn, mek, m, { from, sender, isGroup, reply, quoted, participants }) => 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -114,7 +114,7 @@ ${formattedBio}
 🛡️ Verified: ${user.verifiedName ? "✅ Verified" : "❌ Not verified"}
 ${isGroup ? `👥 *Group Role:* ${groupRole}` : ''}
 
-*📡 Powered by CASEYRHODES*
+*📡 Powered by legend team*
 `.trim();
 
         // 8. Send result with newsletter integration

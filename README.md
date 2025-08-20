@@ -65,3 +65,11 @@
 [![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=yesser%20dk%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=green)](https://wa.me/255621995482)  
 
 <br>
+
+
+
+<a href="https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ"><img src="https://img.shields.io/badge/Subscribe-Nexus[YT]-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+</p>
+
+
+

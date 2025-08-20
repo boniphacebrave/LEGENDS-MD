@@ -61,7 +61,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
+                        newsletterJid: '120363419723191331@newsletter',
                         newsletterName: `${config.BOT_NAME} Updates`,
                         serverMessageId: Math.floor(Math.random() * 1000)
                     }

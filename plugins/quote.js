@@ -21,7 +21,7 @@ cmd({
 
 - _${quoteData.author}_
 
-📡 *Powered by Caseyrhodes tech*
+📡 *Powered by legend tech*
     `;
     
     // Send the formatted quote

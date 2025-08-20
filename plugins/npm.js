@@ -33,7 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*CASEYRHODES-MD NPM SEARCH*
+*LEGENDS-MD NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}

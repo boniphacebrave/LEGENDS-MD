@@ -81,11 +81,11 @@ cmd({
 25. 3 John
 26. Jude
 27. Revelation
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ 🌟
+> Regards LEGENDS-MD 🌟
 `;
 
         // Remplacer ce lien par l'URL de l'image que tu m'enverras
-        const imageUrl = "https://files.catbox.moe/kx30st.jpeg";
+        const imageUrl = "https://files.catbox.moe/k07bn6.jpg";
 
         // Vérifier si le message de la commande est correctement reçu
         if (!m.chat) {
@@ -95,7 +95,7 @@ cmd({
         // Envoi de la réponse avec l'image et la liste des livres de la Bible
         await conn.sendMessage(m.chat, {
             image: { url: imageUrl },
-            caption: `📖 *BIBLE LIST BY CASEYRHODES MD*:\n\n` +
+            caption: `📖 *BIBLE LIST BY LEGENDS-MD*:\n\n` +
                      `Here is the complete list of books in the Bible:\n\n` +
                      bibleList.trim(),
             contextInfo: {
@@ -103,8 +103,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐀𝐋𝐈𝐕𝐄🍀',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }

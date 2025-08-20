@@ -67,8 +67,8 @@
 <br>
 
 
-
-<a href="https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ"><img src="https://img.shields.io/badge/Subscribe-Nexus[YT]-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+## HOW TO DEPLOY  🥱
+<a href="https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ"><img src="https://img.shields.io/badge/Subscribe-Nexus[YT]-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@yesserdk?si=Xu2y7mp035er-Smb" /><br>
 </p>
 
 

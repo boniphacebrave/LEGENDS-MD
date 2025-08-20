@@ -50,19 +50,19 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
             return reply("AI failed to respond. Please try again later.");
         }
         
-        const status = `🤖 *CASEYRHODES-XMD AI Response:*\n\n${data.message}`;
+        const status = `🤖 *LEGENDS-MD AI Response:*\n\n${data.message}`;
         
         // Send image + caption + audio combined with newsletter info
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/y3j3kl.jpg` },  
+            image: { url: `https://files.catbox.moe/k07bn6.jpg` },  
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐀𝐈 🤖',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD 𝐀𝐈 🤖',
                     serverMessageId: 143
                 }
             }

@@ -16,13 +16,13 @@ async (conn, mek, m, { from, q, reply, sender }) => {
         // ✅ Create fake verified contact
         const vcard = `BEGIN:VCARD
 VERSION:3.0
-FN:CASEYRHODES-XMD Official ✅
+FN:LEGENDS-MD Official ✅
 TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}
 END:VCARD`;
 
         const fakeContact = await conn.sendMessage(from, {
             contacts: {
-                displayName: "CASEYRHODES Official ✅",
+                displayName: "LEGENDS-MD Official ✅",
                 contacts: [{ vcard }]
             }
         });
@@ -45,7 +45,7 @@ END:VCARD`;
 > 💨 *Wind:* ${data.wind.speed} m/s  
 > 📊 *Pressure:* ${data.main.pressure} hPa  
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ*
+> *REGARDS LEGENDS-MD*
 `;
 
         await conn.sendMessage(from, {
@@ -56,7 +56,7 @@ END:VCARD`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: "CASEYRHODES TECH",
+                    newsletterName: "LEGENDS-MD",
                     serverMessageId: 100
                 }
             }

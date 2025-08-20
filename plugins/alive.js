@@ -24,14 +24,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
   new Date().getHours() < 12 ? 'Morning' : 
   (new Date().getHours() < 18 ? 'Afternoon' : 'Evening')
 }, ${pushname}!* 💫
-╭───❰ *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃* ❱──┈⊷
+╭───❰ *LEGENG 𝐌𝐃* ❱──┈⊷
 ┃ *✨𝖴ᴘᴛɪᴍᴇ* : *${runtime(process.uptime())}*
 ┃ *💾 𝖱ᴀᴍ ᴜsᴀɢᴇ* : *${usedMem}MB / ${totalMem}MB*
 ┃ *🧑‍💻𝖣ᴇᴘʟᴏʏᴇᴅ ᴏɴ* : *${platform}*
 ┃ *👨‍💻𝖮ᴡɴᴇʀ* : *𝖬ʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs*
 ┃ *🧬𝖵ᴇʀsɪᴏɴ* : *𝟣.𝟢.𝟢 �𝖡𝖤𝖳𝖠*
 ╰──────────────────────┈⊷
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ legend team`;
           
         // Contact message for verified context
         const verifiedContact = {
@@ -43,22 +43,22 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             message: {
                 contactMessage: {
                     displayName: "CASEYRHODES VERIFIED ✅",
-                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Caseyrhodes VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=254112192119:+254112192119\nEND:VCARD"
+                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: legend VERIFIED ✅\nORG: LEGEND-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255621995482\nEND:VCARD"
                 }
             }
         };
         
         // Send image + caption + audio combined
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/y3j3kl.jpg` },  
+            image: { url: `https://files.catbox.moe/k07bn6.jpg` },  
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐀𝐋𝐈𝐕𝐄🍀',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD alive🍀',
                     serverMessageId: 143
                    }
                 }
@@ -68,7 +68,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Attach audio within the same "quoted" message for grouping
         await conn.sendMessage(from, { 
-            audio: { url: 'https://files.catbox.moe/dcxfi1.mp3' },
+            audio: { url: 'https://files.catbox.moe/ooqm90.mp3' },
             mimetype: 'audio/mp4',
             ptt: true 
              }, { quoted: verifiedContact });

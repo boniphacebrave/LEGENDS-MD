@@ -1,6 +1,6 @@
 const { cmd } = require('../command');
 
-// Fixed & Created By CASEYRHODES 
+// Fixed & Created By legend  md 
 cmd({
   pattern: "hidetag",
   alias: ["tag", "h"],  

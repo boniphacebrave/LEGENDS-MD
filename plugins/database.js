@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------
-//          𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇 🌟
+//          LEGENDS-MD 𝐓𝐄𝐂𝐇 🌟
 //---------------------------------------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
 //---------------------------------------------------------------------------
@@ -14,15 +14,15 @@ const path = require('path');
 // Helper function to send responses with newsletter info
 async function sendResponse(conn, from, replyText, quotedMsg) {
     await conn.sendMessage(from, { 
-        image: { url: `https://files.catbox.moe/y3j3kl.jpg` },  
+        image: { url: `https://files.catbox.moe/k07bn6.jpg` },  
         caption: replyText,
         contextInfo: {
             mentionedJid: [quotedMsg.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363302677217436@newsletter',
-                newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇 🌟',
+                newsletterJid: '120363419723191331@newsletter',
+                newsletterName: 'LEGENDS-MD 🌟',
                 serverMessageId: 143
             }
         }
@@ -448,10 +448,10 @@ cmd({
 
     if (args[0] === "on") {
       config.ANTI_LINK_KICK = "true";
-      await sendResponse(conn, from, "✅ ANTI_LINK_KICK has been enabled.", m);
+      await sendResponse(conn, from, "✅ ANTI_LINK_KICK has been enabled by legend md.", m);
     } else if (args[0] === "off") {
       config.ANTI_LINK_KICK = "false";
-      await sendResponse(conn, from, "❌ ANTI_LINK_KICK has been disabled.", m);
+      await sendResponse(conn, from, "❌ ANTI_LINK_KICK has been disabled by legend md.", m);
     } else {
       await sendResponse(conn, from, "Usage: *.antilinkkick on/off*", m);
     }

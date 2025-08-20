@@ -45,15 +45,15 @@ cmd({
       forwardingScore: 55555,
       isForwarded: true,
       externalAdReply: {
-        title: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇",
+        title: "LEGENDS-MD",
         body: "𝐓𝝰̚𝐠͜͡𝗲 𝝪𝐨̚𝝻͜͡𝐫 𝐋𝝾̚𝝼͜͡𝗲 :🦚🍬⛱️🎗️💖",
         mediaType: 4,
-        thumbnailUrl: "https://files.catbox.moe/ord5nm.jpg",
-        sourceUrl: "https://Wa.me/+254781496274",
+        thumbnailUrl: "https://files.catbox.moe/k07bn6.jpg",
+        sourceUrl: "https://Wa.me/+255794373476", "https://Wa.me/+255 621 995 482",
         showAdAttribution: true
       }
     },
     mentions: [mentionedUser]
   });
 });
-//CODES BY CASEYRHODES 
+//CODES BY LEGEND MD 

@@ -39,19 +39,19 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-pσwєrєd вч *cαѕєчrhσdєѕ хtєch* 💜`;
+pσwєrєd вч *legendteam* 💜`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/zh3QjTp4/lordcasey.jpg` },  // Image URL
+            image: { url: `https://files.catbox.moe/k07bn6.jpg` },  // Image URL
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '12036330267721743@newsletter',
-                    newsletterName: 'cαѕєчrhσdєѕ хtєch',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }

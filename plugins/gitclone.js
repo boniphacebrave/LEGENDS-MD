@@ -10,8 +10,8 @@ const quotedContact = {
   },
   message: {
     contactMessage: {
-      displayName: "CASEYRHODES VERIFIED ✅",
-      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:CASEYRHODES VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=25412192119:+254 121 92119\nEND:VCARD"
+      displayName: "LEGENDS-MD VERIFIED ✅",
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:Legend VERIFIED ✅\nORG:LEGEND-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255 621 995 482\nEND:VCARD"
     }
   }
 };
@@ -25,7 +25,7 @@ cmd({
   filename: __filename
 }, async (conn, m, match, { from, quoted, args, reply }) => {
   const link = args[0];
-  if (!link) return reply("📎 Please provide a GitHub link.\n\nExample:\n.gitclone https://github.com/caseyweb/CASEYRHODES-XMD");
+  if (!link) return reply("📎 Please provide a GitHub link.\n\nExample:\n.gitclone https://github.com/boniphace478/BONIPHACE-MD");
 
   if (!/^https:\/\/github\.com\/[^\/]+\/[^\/]+/.test(link)) {
     return reply("⚠️ Invalid GitHub URL.");
@@ -44,7 +44,7 @@ cmd({
     const filenameHeader = headCheck.headers.get("content-disposition");
     const fileName = filenameHeader ? filenameHeader.match(/filename="?(.+?)"?$/)?.[1] : `${repo}.zip`;
 
-    await reply(`╭───〔 *CASEYRHODES XMD GIT CLONE* 〕───⬣
+    await reply(`╭───〔 *LEGENDS-MD GIT CLONE* 〕───⬣
 │
 │ 📁 *User:* ${user}
 │ 📦 *Repo:* ${repo}
@@ -61,8 +61,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363302677217436@newsletter",
-          newsletterName: "CASEYRHODES XMD GITHUB CLONE 👻",
+          newsletterJid: "120363419723191331@newsletter",
+          newsletterName: "LEGENDS-MD GITHUB CLONE 👻",
           serverMessageId: 143
         }
       }

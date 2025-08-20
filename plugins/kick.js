@@ -53,8 +53,8 @@ async (Void, msg, {
         
         // Send success message with mention
         await Void.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/y3j3kl.jpg` },
-            caption: `✅ Successfully removed @${userNumber}\n\n- Action by admin`,
+            image: { url: `https://files.catbox.moe/k07bn6.jpg` },
+            caption: `✅ Successfully removed @${userNumber}\n\n- Action by legend md`,
             mentions: [userJid]
         }, { quoted: msg });
         

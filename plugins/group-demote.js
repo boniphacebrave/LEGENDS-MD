@@ -39,7 +39,7 @@ async(conn, mek, m, {
         
         await conn.sendMessage(from, {
             image: { 
-                url: "https://files.catbox.moe/y3j3kl.jpg" 
+                url: "https://files.catbox.moe/k07bn6.jpg" 
             },
             caption: `✅ Successfully demoted @${number} to a normal member.`,
             mentions: [jid],
@@ -48,8 +48,8 @@ async(conn, mek, m, {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐃𝐄𝐌𝐎𝐓𝐄',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }

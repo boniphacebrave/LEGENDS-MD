@@ -29,7 +29,7 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
     try {
       imageUrl = await conn.profilePictureUrl(targetJid, 'image');
     } catch {
-      imageUrl = "https://files.catbox.moe/ntqtnt.jpg";
+      imageUrl = "https://files.catbox.moe/k07bn6.jpg";
     }
 
     const fakeVCard = {
@@ -40,8 +40,8 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
       },
       message: {
         contactMessage: {
-          displayName: "CASEYRHODES TECH ✅",
-          vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: CASEYRHODES ✅\nORG: CASEYRHODES-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD",
+          displayName: "LEGENDS-MD ✅",
+          vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Legend ✅\nORG: LEGEND-TECH;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255621995482\nEND:VCARD",
           jpegThumbnail: Buffer.from([])
         }
       }
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
         forwardingScore: 5,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterName: "CASEYRHODES-XMD",
-          newsletterJid: "120363302677217436@newsletter"
+          newsletterName: "LEGENDS-MD",
+          newsletterJid: "120363419723191331@newsletter"
         }
       }
     }, { quoted: fakeVCard });

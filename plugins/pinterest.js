@@ -27,13 +27,13 @@ cmd({
         const media = response.data.BK9;
         
         // Prepare the caption
-        const desc = `*CASEYRHODES XMD*
+        const desc = `*LEGENDS-MD*
 
 *PINS DOWNLOADER*
 ╭━━❐━⪼
 ┇๏ *Owner* - ${response.data.owner}
 ╰━━❑━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ ♡*`;
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ Legend Team*`;
 
         // Check if there are any media items
         if (media.length > 0) {

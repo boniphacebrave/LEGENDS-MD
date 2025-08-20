@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭〔 *【𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃】* 〕⊷
+        let envSettings = `╭〔 *【LEGENDS-MD 】* 〕⊷
 ┃▸╭───────────
 ┃▸┃๏ *ENV SETTINGS 👻*
 ┃▸└───────────···๏
@@ -48,15 +48,15 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://i.ibb.co/DDjPWXGT/lordcasey.jpg' }, // Image URL
+                image: { url: 'https://files.catbox.moe/k07bn6.jpg' }, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: "𝐓𝐇𝐄 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
+                        newsletterJid: '120363419723191331@newsletter',
+                        newsletterName: "LEGENDS-MD 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
                         serverMessageId: 143
                     }
                 }
@@ -66,7 +66,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send an audio file
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/310dic.aac' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/ooqm90.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });

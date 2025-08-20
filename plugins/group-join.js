@@ -11,8 +11,8 @@ const quotedContact = {
     },
     message: {
         contactMessage: {
-            displayName: "CASEYRHODES VERIFIED ✅",
-            vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=254112192119:+254112192119\nEND:VCARD"
+            displayName: "LEGENDS-MD VERIFIED ✅",
+            vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:Legend VERIFIED ✅\nORG:LEGEND-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255 621 995 482\nEND:VCARD"
         }
     }
 };
@@ -30,8 +30,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363302677217436@newsletter",
-            newsletterName: "CASEYRHODES-XMD",
+            newsletterJid: "120363419723191331@newsletter",
+            newsletterName: "LEGENDS-MD",
             serverMessageId: 1
         }
     };

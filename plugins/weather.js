@@ -55,7 +55,7 @@ END:VCARD`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterJid: '120363419723191331@newsletter',
                     newsletterName: "LEGENDS-MD",
                     serverMessageId: 100
                 }

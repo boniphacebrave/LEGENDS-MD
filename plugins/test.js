@@ -12,9 +12,9 @@ cmd({
 async (conn, mek, m, { from, quoted, sender, reply }) => {
     try {
         const songUrls = [
-            "https://files.catbox.moe/dcxfi1.mp3",
-            "https://files.catbox.moe/ebkzu5.mp3",
-            "https://files.catbox.moe/iq4ouj.mp3"
+            "https://files.catbox.moe/ooqm90.mp3",
+            "https://files.catbox.moe/jnj107.mp3",
+            ""
             // Add more direct URLs here
         ];
 
@@ -31,8 +31,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: "CASEYRHODES-XMD VERIFIED ✅",
-                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:CASEYRHODES-XMD\nORG:CASEYRHODES;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254700000000\nEND:VCARD"
+                    displayName: "LEGENDS-MD VERIFIED ✅",
+                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:LEGENDS-MD \nORG:LEGEND-TECH;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255 621 995 482\nEND:VCARD"
                 }
             }
         };
@@ -46,14 +46,14 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: "CASEYRHODES TECH 👻",
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: "LEGEND-TECH 👻",
                     serverMessageId: 143
                 },
                 externalAdReply: {
-                    title: "CASEYRHODES-XMD",
+                    title: "LEGENDS-MD",
                     body: "Multi-Device WhatsApp Bot",
-                    thumbnailUrl: "https://files.catbox.moe/y3j3kl.jpg",
+                    thumbnailUrl: "https://files.catbox.moe/k07bn6.jpg",
                     mediaType: 1,
                     renderLargerThumbnail: true,
                     showAdAttribution: true

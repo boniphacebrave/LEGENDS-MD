@@ -23,8 +23,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐔𝐏𝐃𝐀𝐓𝐄𝐒',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -32,34 +32,34 @@ cmd({
 
         // Initial update check message with newsletter
         await conn.sendMessage(from, {
-            text: "🔍 *Checking for CASEYRHODES-XMD updates...*",
+            text: "🔍 *Checking for legend md updates...*",
             ...newsletterConfig
         }, { quoted: mek });
 
         // Fetch the latest commit hash from GitHub
-        const { data: commitData } = await axios.get("https://api.github.com/repos/caseyweb/CASEYRHODES-XMD/commits/main");
+        const { data: commitData } = await axios.get("https://api.github.com/repos/boniphacebrave/LEGENDS-MD/commits/main");
         const latestCommitHash = commitData.sha;
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
             return await conn.sendMessage(from, {
-                text: "✅ *Your CASEYRHODES-XMD bot is already up-to-date!*",
+                text: "✅ *Your legend bot is already up-to-date!*",
                 ...newsletterConfig
             }, { quoted: mek });
         }
 
         // Update progress message
         await conn.sendMessage(from, {
-            text: "🚀 *Updating CASEYRHODES-XMD Bot...*\n\n_This may take a few moments..._",
+            text: "🚀 *Updating legend md Bot...*\n\n_This may take a few moments..._",
             ...newsletterConfig
         }, { quoted: mek });
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
-        const { data: zipData } = await axios.get("https://github.com/caseyweb/CASEYRHODES-XMD/archive/main.zip", { 
+        const { data: zipData } = await axios.get("https://github.com/boniphacebrave/LEGENDS-MD/archive/main.zip", { 
             responseType: "arraybuffer",
             headers: {
-                'User-Agent': 'CASEYRHODES-XMD-Bot'
+                'User-Agent': 'LEGENDS-XMD-Bot'
             }
         });
         fs.writeFileSync(zipPath, zipData);
@@ -80,7 +80,7 @@ cmd({
             ...newsletterConfig
         }, { quoted: mek });
 
-        const sourcePath = path.join(extractPath, "CASEYRHODES-XMD-main");
+        const sourcePath = path.join(extractPath, "LEGEND-XMD-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 
@@ -94,10 +94,10 @@ cmd({
         // Final success message with image
         await conn.sendMessage(from, {
             image: { 
-                url: "https://i.ibb.co/wN6Gw0ZF/lordcasey.jpg",
+                url: "https://files.catbox.moe/k07bn6.jpg",
                 mimetype: "image/jpeg"
             },
-            caption: "✅ *Update complete!*\n\n_Restarting the bot to apply changes..._\n\n⚡ Powered by CASEYRHODES-TECH",
+            caption: "✅ *Update complete!*\n\n_Restarting the bot to apply changes..._\n\n⚡ Powered by LEGENDS-MD",
             ...newsletterConfig
         }, { quoted: mek });
 

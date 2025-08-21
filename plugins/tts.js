@@ -24,7 +24,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const response = await axios.get(url);
         const translation = response.data.responseData.translatedText;
 
-        const translationMessage = `> *CASEYRHODES-XMD-TRANSLATION*
+        const translationMessage = `> *LEGEND-XMD-TRANSLATION*
 
 > 🔤 *Original*: ${textToTranslate}
 
@@ -61,8 +61,8 @@ async(conn, mek, m, {from, quoted, body, isCmd, command, args, q, isGroup, sende
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363302677217436@newsletter',
-                newsletterName: 'CASEYRHODES-XMD 👻',
+                newsletterJid: '120363419723191331@newsletter',
+                newsletterName: 'LEGENDS-MD 👻',
                 serverMessageId: 143
             }
         };

@@ -42,7 +42,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             teks += `${randomEmoji} @${mem.id.split('@')[0]}\n`;
         }
 
-        teks += "└──《 *CASEYRHODES XMD* 》──";
+        teks += "└──《 *LEGENDS-XMD* 》──";
 
         let fakeContact = {
             key: {
@@ -52,8 +52,8 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             },
             message: {
                 contactMessage: {
-                    displayName: 'CASEYRHODES TECH ✅',
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:CASEYRHODES ✅\nORG:CASEYRHODES-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                    displayName: 'LEGEND TECH ✅',
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:LEGEND ✅\nORG:LEGEND-TECH;\nTEL;type=CELL;type=VOICE;waid=255794373476:+255 621 995 482\nEND:VCARD`,
                     jpegThumbnail: null
                 }
             }
@@ -65,9 +65,9 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             contextInfo: {
                 externalAdReply: {
                     title: "GROUP PINGER",
-                    body: "Powered by Caseyrhodes tech",
-                    thumbnailUrl: "https://files.catbox.moe/51dcx2.jpg",
-                    sourceUrl: "https://github.com/caseyweb",
+                    body: "Powered by LEGENDS-MD",
+                    thumbnailUrl: "https://files.catbox.moe/k07bn6.jpg",
+                    sourceUrl: "https://github.com/boniphace748",
                     mediaType: 1,
                     renderLargerThumbnail: false,
                     showAdAttribution: true
@@ -75,8 +75,8 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363302677217436@newsletter",
-                    newsletterName: "CASEYRHODES TECH",
+                    newsletterJid: "120363419723191331@newsletter",
+                    newsletterName: "LEGENDS-MD",
                     serverMessageId: "",
                 }
             }

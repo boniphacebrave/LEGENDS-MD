@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 let dec = `    
 ⟣──────────────────⟢
-▧ *ᴄʀᴇᴀᴛᴏʀ* : *ᴍʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs (🇰🇪)*
+▧ *ᴄʀᴇᴀᴛᴏʀ* : *legend team*
 ▧ *ᴍᴏᴅᴇ* : *${config.MODE}*
 ▧ *ᴘʀᴇғɪx* : *${config.PREFIX}*
 ▧ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
@@ -28,20 +28,20 @@ let dec = `
 
 ⟣──────────────────⟢
 
-> 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃 
+> LEGENDS-MD
 
 ⟣──────────────────⟢
 ${readMore}
 \`CHANNEL🛠️\`
-https://tinyurl.com/26kh6jss
+https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S
 
 \`GROUP\` 👥
 
-https://tinyurl.com/26kh6jss
+https://chat.whatsapp.com/DIpnxyUiHkr3aZ92A16zT5?mode=ac_t
 
-\`𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃\` *Dev🧑‍💻*
+\`LEGENDS-MD \` *Dev🧑‍💻*
 
-wa.me/+254112192119?text=Support!
+https://wa.me/+255794373476?text=Support!
 
 ⟣──────────────────⟢
 
@@ -50,15 +50,15 @@ wa.me/+254112192119?text=Support!
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/NdGZ99mN/705f0162-de6f-4fb8-a78f-6c563969093c.jpg` },
+                image: { url: `https://files.catbox.moe/k07bn6.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: '『 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃 』',
+                        newsletterJid: '120363419723191331@newsletter',
+                        newsletterName: '『 LEGENDS-MD 』',
                         serverMessageId: 143
                     }
                 }
@@ -68,7 +68,7 @@ await conn.sendMessage(
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/a1sh4u.mp3' },
+            audio: { url: 'https://files.catbox.moe/ooqm90.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });

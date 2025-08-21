@@ -27,7 +27,7 @@ cmd({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://raw.githubusercontent.com/caseyweb/CASEYRHODES-XMD/main/data/version.json';
+    const rawVersionUrl = 'https://raw.githubusercontent.com/boniphace/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -53,35 +53,35 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/caseyweb/CASEYRHODES-XMD';
+    const githubRepo = 'https://github.com/boniphace;
 
     // Check update status
-    let updateMessage = `*✅ ʏᴏᴜʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs-xᴍᴅ ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ!*`;
+    let updateMessage = `*✅ ʏᴏᴜʀ legend xᴍᴅ ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ!*`;
     if (localVersion !== latestVersion) {
-      updateMessage = `*😵‍💫 ʏᴏᴜʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs-xᴍᴅ ʙᴏᴛ ɪs ᴏᴜᴛᴅᴀᴛᴇᴅ!*
+      updateMessage = `*😵‍💫 ʏᴏᴜʀ legend-xᴍᴅ ʙᴏᴛ ɪs ᴏᴜᴛᴅᴀᴛᴇᴅ!*
 🔹 *ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ:* ${localVersion}
 🔹 *ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ:* ${latestVersion}
 
 *ᴜsᴇ .ᴜᴘᴅᴀᴛᴇ ᴛᴏ ᴜᴘᴅᴀᴛᴇ.*`;
     }
 
-    const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `🤖 *ʙᴏᴛ ɴᴀᴍᴇ:* ᴄᴀsᴇʏʀʜᴏᴅᴇs-xᴍᴅ\n🔖 *ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ:* ${localVersion}\n📢 *ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ:* ${latestVersion}\n📂 *ᴛᴏᴛᴀʟ ᴘʟᴜɢɪɴs:* ${pluginCount}\n🔢 *ᴛᴏᴛᴀʟ ᴄᴏᴍᴍᴀɴᴅs:* ${totalCommands}\n\n` +
+    const statusMessage = `🌟 *Good ${new Dateconst statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
+      `🤖 *ʙᴏᴛ ɴᴀᴍᴇ:* legend \n🔖 *ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ:* ${localVersion}\n📢 *ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ:* ${latestVersion}\n📂 *ᴛᴏᴛᴀʟ ᴘʟᴜɢɪɴs:* ${pluginCount}\n🔢 *ᴛᴏᴛᴀʟ ᴄᴏᴍᴍᴀɴᴅs:* ${totalCommands}\n\n` +
       `💾 *sʏsᴛᴇᴍ ɪɴғᴏ:*\n⏰ *ᴜᴘᴛɪᴍᴇ:* ${uptime}\n📟 *ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *ʜᴏsᴛ ɴᴀᴍᴇ:* ${hostName}\n📅 *ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇ:* ${lastUpdate}\n\n` +
       `📑 *ᴄʜᴀɴɢᴇʟᴏɢ:*\n${latestChangelog}\n\n` +
       `⭐ *ɢɪᴛʜᴜʙ ʀᴇᴘᴏ:* ${githubRepo}\n\n${updateMessage}\n\n👋🏻 *ʜᴇʏ! ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ғᴏʀᴋ & sᴛᴀʀ ᴛʜᴇ ʀᴇᴘᴏ!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://i.ibb.co/zh3QjTp4/lordcasey.jpg' },
+      image: { url: 'https://files.catbox.moe/k07bn6.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '+120363302677217436@newsletter',
-          newsletterName: '☇ ᴄᴀsᴇʏʀʜᴏᴅᴇs-xᴍᴅ ⃪🤖͎᪳᪳𝆺𝅥',
+          newsletterJid: '120363419723191331@newsletter',
+          newsletterName: 'LEGENDS-MD ,
           serverMessageId: 143
         }
       }

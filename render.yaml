@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: CASEYRHODES-XMD
+    name: LEGENDS-MD 
     env: node
     plan: free
-    repo: https://github.com/caseyweb/CASEYRHODES-XMD
+    repo: https://github.com/legend30-web/LEGENDS-MD
     branch: main
     buildCommand: npm install
     startCommand: npm start

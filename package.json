@@ -1,12 +1,12 @@
 {
   "name": "CASEYRHODES-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By Caseyrhodes",
+  "description": "A WhatsApp Bot Created By legend team",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name CASEYRHODES-XMD",
-    "stop": "pm2 stop CASEYRHODES-XMD",
-    "restart": "pm2 restart CASEYRHODES-XMD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name LEGEND-MD",
+    "stop": "pm2 stop LEGENDS-MD",
+    "restart": "pm2 restart LEGENDS-MD"
   },
   "dependencies": {
        "@whiskeysockets/baileys":"github:Drayyyxd/XD-Baileys",

@@ -64,19 +64,19 @@ cmd({
     const status = `*${mediaType} ᴜᴘʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ ✅*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ 🌟`;
+      `> Regards LEGENDS-MD 🌟`;
 
     // Send response with newsletter
     await client.sendMessage(message.chat, { 
-      image: { url: `https://i.ibb.co/wN6Gw0ZF/lordcasey.jpg` },  
+      image: { url: `https://files.catbox.moe/k07bn6.jpg` },  
       caption: status,
       contextInfo: {
         mentionedJid: [message.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363302677217436@newsletter',
-          newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇 🌟',
+          newsletterJid: '120363419723191331@newsletter',
+          newsletterName: 'LEGENDS-MD 🌟',
           serverMessageId: 143
         }
       }

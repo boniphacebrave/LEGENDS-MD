@@ -161,14 +161,14 @@ async function connectToWA() {
             caption: `
 *LEGENDS-MD 🎉✅*
 > Simple , Straight Forward But Loaded With Features, 
- Meet *CASEYRHODES-XMD* WhatsApp Bot🌟
+ Meet *legend-md* WhatsApp Bot🌟
 
 *Thanks for using LEGENDS-MD* 
 *Join WhatsApp Channel :- ⤵️*
 > https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S
 *ʏᴏᴜʀ ᴘʀᴇғɪx : ${config.PREFIX}*
 *Dont forget to give star to repo ⬇️*🌟
-> https://github.com/legend30-web/LEGENDS-MD
+> https://github.com/boniphacebrave/LEGENDS-MD
 
 > *© REGARDS LEGENDS-MD*`,
             contextInfo: {

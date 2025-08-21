@@ -10,36 +10,36 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { reply }) => {
     const familyList = `
-*╭───『 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐅𝐀𝐌𝐈𝐋𝐘 』───╮*
+*╭───『 LEGEND FAMILY 』───╮*
 │
-│ 👑 *Founder:* CARMEN
+│ 👑 *Founder:* TZ
 │
 │ *───『 Core Team 』───*
-│ ◦ HANZ TZ
-│ ◦ IBRAHIM ADAMS
-│ ◦ KEITH
-│ ◦ HENRY
-│ ◦ LEA
+│ ◦ BONIPHACE 
+│ ◦ YESSER DK
+│ ◦ TIMNASSA
+│ ◦ DULLAH
+│ ◦ 
 │
 │ *───『 Senior Members 』───*
-│ ◦ CHARITY
-│ ◦ KERM
-│ ◦ CASEYWEB
-│ ◦ RAPHAËL
-│ ◦ ABDULLAH
+│ ◦ BONIPHACE
+│ ◦ YESSER DK
+│ ◦ TIMNASSA
+│ ◦ DULLAH
+│ ◦ 
 │
 │ *───『 Active Members 』───*
-│ ◦ FANNY
-│ ◦ RYAN
-│ ◦ CHRIS
-│ ◦ GREY
-│ ◦ SILENT LOVER
+│ ◦ 
+│ ◦ 
+│ ◦ 
+│ ◦ 
+│ ◦ 
 │
 │ *───『 Support Team 』───*
-│ ◦ SUKUNA
-│ ◦ ROY
-│ ◦ FERNAND
-│ ◦ OBIANG
+│ ◦ 
+│ ◦ 
+│ ◦ 
+│ ◦ 
 │
 ╰─────────────────╯
 `.trim();
@@ -47,7 +47,7 @@ cmd({
     try {
         await conn.sendMessage(m.chat, {
             image: { 
-                url: "https://i.imgur.com/KTnj2px.jpeg",
+                url: "https://files.catbox.moe/k07bn6.jpg",
                 mimetype: "image/jpeg"
             },
             caption: familyList,
@@ -55,8 +55,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐅𝐀𝐌𝐈𝐋𝐘',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -82,8 +82,8 @@ cmd({
 
         // Staff list with proper JIDs
         const staffContacts = [
-            "923003588997@s.whatsapp.net", // Replace with actual staff numbers
-            "923003588997@s.whatsapp.net"
+            "120363418653876892@g.us", // Replace with actual staff numbers
+            "120363418653876892@g.us"
         ].filter(Boolean);
 
         if (staffContacts.length === 0) {
@@ -130,9 +130,9 @@ cmd({
         if (!isAdmins && !isOwner) return reply("❌ Admin-only command");
 
         const newSettings = {
-            name: "𓆩ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ𓆪",
-            desc: `༒🔱𝐇҉𝐀҉𝐂҉𝐊҉𝐄҉𝐃҉ 𝐁҉𝐘҉ 𝐂҉𝐀҉𝐒҉𝐄҉𝐘҉𝐑҉𝐇҉𝐎҉𝐃҉𝐄҉𝐒҉ 𝐂҉𝐋҉𝐀҉𝐍҉🔱༒\n\nOfficial group of CaseyRhodes Clan`,
-            image: "https://i.imgur.com/pvIedwX.jpeg"
+            name: "𓆩legend xᴍᴅ𓆪",
+            desc: `༒🔱legend md 🔱༒\n\nOfficial group of legend Clan`,
+            image: "https://files.catbox.moe/k07bn6.jpg"
         };
 
         // Update group name

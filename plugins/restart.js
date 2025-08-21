@@ -3,7 +3,7 @@ const { sleep } = require('../lib/functions');
 
 cmd({
     pattern: "restart",
-    desc: "Restart the bot KHAN-AI",
+    desc: "Restart the bot legend-md",
     category: "owner",
     filename: __filename
 },
@@ -20,7 +20,7 @@ async (conn, mek, m, {
         const { exec } = require("child_process");
         
         // Send initial message
-        await reply("🔄 Restarting CASEYRHODES AI bot... Please wait...");
+        await reply("🔄 Restarting legend md bot... Please wait...");
         await sleep(1500);
         
         // Send confirmation message

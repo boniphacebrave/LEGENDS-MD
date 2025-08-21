@@ -108,7 +108,7 @@ async function connectToWA() {
     if (autobio === 'on') {
       const updateBio = () => {
         const date = new Date()
-        const bioText = `📅 DATE/TIME: ${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} | DAY: ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})} | CASEYRHODES HUB REPRESENTS CONSTANCY EVEN IN CHAOS⚡`
+        const bioText = `📅 DATE/TIME: ${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} | DAY: ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})} | LEGENDS-MD HUB REPRESENTS CONSTANCY EVEN IN CHAOS⚡`
         
         conn.updateProfileStatus(bioText)
           .then(() => console.log('Bio updated successfully'))
@@ -157,26 +157,26 @@ async function connectToWA() {
             console.error('Error joining group:', groupErr);
           }
           const startMess = {
-            image: { url: 'https://files.catbox.moe/y3j3kl.jpg' },
+            image: { url: 'https://files.catbox.moe/k07bn6.jpg' },
             caption: `
-*ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ🎉✅*
+*LEGENDS-MD 🎉✅*
 > Simple , Straight Forward But Loaded With Features, 
  Meet *CASEYRHODES-XMD* WhatsApp Bot🌟
 
-*Thanks for using CASEYRHODES XMD* 
+*Thanks for using LEGENDS-MD* 
 *Join WhatsApp Channel :- ⤵️*
-> https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
+> https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S
 *ʏᴏᴜʀ ᴘʀᴇғɪx : ${config.PREFIX}*
 *Dont forget to give star to repo ⬇️*🌟
-> https://github.com/caseyweb/CASEYRHODES-XMD
+> https://github.com/legend30-web/LEGENDS-MD
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ*`,
+> *© REGARDS LEGENDS-MD*`,
             contextInfo: {
               forwardingScore: 5,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363302677217436@newsletter', 
-                newsletterName: "CASEYRHODES-XMD",
+                newsletterJid: '120363419723191331@newsletter', 
+                newsletterName: "LEGENDS-MD",
                 serverMessageId: 143
               }
             }
@@ -279,7 +279,7 @@ async function connectToWA() {
       }
       
       const udp = botNumber.split('@')[0]
-      const rav = ('254112192119', '254101022551')
+      const rav = ('255794373476', '255621995482')
       let isCreator = [udp, rav, config.DEV]
         .map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
         .includes(mek.sender)
@@ -323,7 +323,7 @@ async function connectToWA() {
       }
       
       //================ownerreact==============
-      if (senderNumber.includes("254112192119") && !isReact) {
+      if (senderNumber.includes("255794373476") && !isReact) {
         const reactions = ["👑", "🥳", "📊", "⚙️", "🧠", "🎯", "✨", "🔑", "🏆", "👻", "🎉", "💗", "❤️", "😜", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌟", "🐥", "🧊"]
         const randomReaction = reactions[Math.floor(Math.random() * reactions.length)]
         m.react(randomReaction)
@@ -780,7 +780,7 @@ async function connectToWA() {
 }
   
 app.get("/", (req, res) => {
-  res.send("CASEYRHODES XMD STARTED ✅")
+  res.send("LEGENDS-XMD STARTED ✅")
 })
 
 // Anti-crash handler

@@ -19,7 +19,7 @@ cmd({
             return reply("❌ Failed to fetch a joke. Please try again.");
         }
 
-        const jokeMessage = `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆\n\n> *© ᴄᴏᴏᴋᴇᴅ ʙʏ ᴍʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs*`;
+        const jokeMessage = `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆\n\n> *© Regards LEGENDS-MD*`;
 
         await conn.sendMessage(from, {
             text: jokeMessage,
@@ -28,8 +28,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -67,8 +67,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -106,8 +106,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -145,8 +145,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -172,7 +172,7 @@ cmd({
 
         if (!fact) return reply("❌ Failed to fetch a fun fact. Please try again.");
 
-        const factMessage = `🧠 *Random Fun Fact* 🧠\n\n${fact}\n\nIsn't that interesting? 😄\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ*`;
+        const factMessage = `🧠 *Random Fun Fact* 🧠\n\n${fact}\n\nIsn't that interesting? 😄\n\n> *© REGARDS LEGENDS-MD*`;
 
         await conn.sendMessage(from, {
             text: factMessage,
@@ -181,8 +181,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -207,7 +207,7 @@ cmd({
         if (!res.ok) throw new Error(`API request failed with status ${res.status}`);
 
         const json = await res.json();
-        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *© ᴅʀᴏᴘᴘᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ*`;
+        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *© REGARDS LEGENDS-MD*`;
 
         await conn.sendMessage(from, { 
             text: pickupLine,
@@ -216,8 +216,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -262,8 +262,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -297,7 +297,7 @@ cmd({
         if (!message) return reply("❎ Please provide a message to repeat.");
 
         const repeatedMessage = Array(count).fill(message).join("\n");
-        const response = `🔄 Repeated ${count} times:\n\n${repeatedMessage}\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴄᴀsᴇʏʀʜᴏᴅᴇs*`;
+        const response = `🔄 Repeated ${count} times:\n\n${repeatedMessage}\n\n> *© REGARDS LEGENDS-MD*`;
 
         await conn.sendMessage(from, {
             text: response,
@@ -306,8 +306,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }
@@ -352,8 +352,8 @@ cmd({
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                        newsletterJid: '120363419723191331@newsletter',
+                        newsletterName: 'LEGENDS-MD,
                         serverMessageId: 143
                     }
                 }
@@ -391,8 +391,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇',
+                    newsletterJid: '120363419723191331@newsletter',
+                    newsletterName: 'LEGENDS-MD,
                     serverMessageId: 143
                 }
             }

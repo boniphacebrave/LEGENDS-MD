@@ -23,8 +23,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363302677217436@newsletter',
-          newsletterName: 'CASEYRHODES TECH 🌟',
+          newsletterJid: '120363419723191331@newsletter',
+          newsletterName: 'LEGENDS-MD 🌟',
           serverMessageId: 143
         }
       }
@@ -86,13 +86,13 @@ cmd({
         },
         caption: "🖼️ *Screenshot Generated*\n\n" +
                 "🔗 *Website:* " + url + "\n\n" +
-                "⚡ *Powered by CASEYRHODES-TECH*",
+                "⚡ *Powered by legend*",
         ...newsletterConfig
     }, { quoted: mek });
 
     // Send newsletter update message (without image)
     await conn.sendMessage(from, { 
-        text: "🌟 *CASEYRHODES TECH UPDATE* 🌟\n\nStay updated with our latest features!",
+        text: "🌟 *LEGEND-TECH TECH UPDATE* 🌟\n\nStay updated with our latest features!",
         ...newsletterConfig
     }, { quoted: mek });
 
